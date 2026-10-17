@@ -1,6 +1,6 @@
 {
- "version": "W-1.0",
- "erzeugt": "2026-10-17T21:41:03Z",
+ "version": "W-1.1",
+ "erzeugt": "2026-10-17T22:34:37Z",
  "modus": "historie",
  "stationen": {
   "DWD-06263": {
@@ -8,22 +8,16 @@
    "erster_tag": "2004-07-01",
    "letzter_tag": "2026-10-16",
    "tage": 8143,
+   "werte_akt": 550,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
-  },
-  "DWD-06107": {
-   "name": "Sipplingen",
-   "erster_tag": "1999-04-14",
-   "letzter_tag": null,
-   "tage": 8870,
-   "perzentile_echt": 0,
-   "perzentile_zu_kurz": 72
   },
   "DWD-02712": {
    "name": "Konstanz",
    "erster_tag": "1990-12-01",
    "letzter_tag": "2026-10-16",
    "tage": 13104,
+   "werte_akt": 549,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   },
@@ -32,9 +26,71 @@
    "erster_tag": "1990-12-01",
    "letzter_tag": "2026-10-15",
    "tage": 13104,
+   "werte_akt": 288,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   }
+ },
+ "messpunkte": {
+  "BR-W": {
+   "name": "Bodanrück West/Zentral",
+   "erster_tag": "1990-12-01",
+   "letzter_tag": "2026-10-16",
+   "tage": 13104,
+   "werte_akt": 28,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  },
+  "BR-O": {
+   "name": "Bodanrück Ost",
+   "erster_tag": "1990-12-01",
+   "letzter_tag": "2026-10-16",
+   "tage": 13104,
+   "werte_akt": 28,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  },
+  "BR-F": {
+   "name": "Bodanrück Feucht-/Tieflage",
+   "erster_tag": "1990-12-01",
+   "letzter_tag": "2026-10-16",
+   "tage": 13104,
+   "werte_akt": 28,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  },
+  "HG-B": {
+   "name": "Hegaualb Engen-Bargen",
+   "erster_tag": "1990-12-01",
+   "letzter_tag": "2026-10-16",
+   "tage": 13104,
+   "werte_akt": 28,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  },
+  "HG-S": {
+   "name": "Hegau Braunerde Vulkantuff",
+   "erster_tag": "1990-12-01",
+   "letzter_tag": "2026-10-16",
+   "tage": 13104,
+   "werte_akt": 28,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  },
+  "HG-K": {
+   "name": "Hegau Pararendzina Deckentuff",
+   "erster_tag": "1990-12-01",
+   "letzter_tag": "2026-10-16",
+   "tage": 13104,
+   "werte_akt": 28,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  }
+ },
+ "pruefung_konstanz": {
+  "anzahl_jahre": 35,
+  "mittlere_abweichung_pct": 9.0,
+  "mittlere_betragsabweichung_pct": 9.0
  },
  "fehler": 0
 }

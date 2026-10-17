@@ -1,0 +1,189 @@
+{
+ "jahre": {
+  "1991": {
+   "raster": 793.2,
+   "station": 716.1,
+   "tage": 365
+  },
+  "1992": {
+   "raster": 939.2,
+   "station": 896.3,
+   "tage": 366
+  },
+  "1993": {
+   "raster": 940.4,
+   "station": 859.8,
+   "tage": 365
+  },
+  "1994": {
+   "raster": 1020.2,
+   "station": 869.6,
+   "tage": 365
+  },
+  "1995": {
+   "raster": 1161.9,
+   "station": 1040.2,
+   "tage": 365
+  },
+  "1996": {
+   "raster": 899.3,
+   "station": 825.0,
+   "tage": 366
+  },
+  "1997": {
+   "raster": 817.4,
+   "station": 708.3,
+   "tage": 365
+  },
+  "1998": {
+   "raster": 853.8,
+   "station": 773.0,
+   "tage": 365
+  },
+  "1999": {
+   "raster": 1148.2,
+   "station": 973.4,
+   "tage": 365
+  },
+  "2000": {
+   "raster": 920.9,
+   "station": 771.9,
+   "tage": 366
+  },
+  "2001": {
+   "raster": 1066.3,
+   "station": 895.7,
+   "tage": 365
+  },
+  "2002": {
+   "raster": 1065.1,
+   "station": 1018.2,
+   "tage": 365
+  },
+  "2003": {
+   "raster": 705.9,
+   "station": 626.5,
+   "tage": 365
+  },
+  "2004": {
+   "raster": 814.7,
+   "station": 734.8,
+   "tage": 366
+  },
+  "2005": {
+   "raster": 869.2,
+   "station": 748.5,
+   "tage": 365
+  },
+  "2006": {
+   "raster": 943.7,
+   "station": 837.0,
+   "tage": 365
+  },
+  "2007": {
+   "raster": 969.2,
+   "station": 906.3,
+   "tage": 365
+  },
+  "2008": {
+   "raster": 839.2,
+   "station": 752.7,
+   "tage": 366
+  },
+  "2009": {
+   "raster": 872.9,
+   "station": 789.1,
+   "tage": 365
+  },
+  "2010": {
+   "raster": 911.3,
+   "station": 888.3,
+   "tage": 365
+  },
+  "2011": {
+   "raster": 824.6,
+   "station": 801.4,
+   "tage": 365
+  },
+  "2012": {
+   "raster": 1035.1,
+   "station": 958.3,
+   "tage": 366
+  },
+  "2013": {
+   "raster": 943.0,
+   "station": 872.3,
+   "tage": 365
+  },
+  "2014": {
+   "raster": 872.2,
+   "station": 792.7,
+   "tage": 365
+  },
+  "2015": {
+   "raster": 807.8,
+   "station": 736.0,
+   "tage": 365
+  },
+  "2016": {
+   "raster": 1082.0,
+   "station": 977.8,
+   "tage": 366
+  },
+  "2017": {
+   "raster": 1023.2,
+   "station": 978.8,
+   "tage": 365
+  },
+  "2018": {
+   "raster": 722.0,
+   "station": 616.0,
+   "tage": 365
+  },
+  "2019": {
+   "raster": 924.7,
+   "station": 881.2,
+   "tage": 365
+  },
+  "2020": {
+   "raster": 809.8,
+   "station": 765.0,
+   "tage": 366
+  },
+  "2021": {
+   "raster": 991.7,
+   "station": 991.7,
+   "tage": 365
+  },
+  "2022": {
+   "raster": 871.9,
+   "station": 872.0,
+   "tage": 365
+  },
+  "2023": {
+   "raster": 870.4,
+   "station": 870.4,
+   "tage": 365
+  },
+  "2024": {
+   "raster": 1072.5,
+   "station": 1072.5,
+   "tage": 366
+  },
+  "2025": {
+   "raster": 888.1,
+   "station": 888.1,
+   "tage": 365
+  }
+ },
+ "anzahl_jahre": 35,
+ "mittlere_abweichung_pct": 9.0,
+ "mittlere_betragsabweichung_pct": 9.0,
+ "station": "DWD-02712",
+ "zelle": [
+  47.6936,
+  9.128,
+  0.27
+ ],
+ "erzeugt": "2026-10-17T22:34:37Z"
+}

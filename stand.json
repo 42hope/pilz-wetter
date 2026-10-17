@@ -1,6 +1,6 @@
 {
- "version": "W-1.1",
- "erzeugt": "2026-10-17T22:34:37Z",
+ "version": "W-1.2",
+ "erzeugt": "2026-10-17T23:13:32Z",
  "modus": "historie",
  "stationen": {
   "DWD-06263": {
@@ -38,6 +38,7 @@
    "letzter_tag": "2026-10-16",
    "tage": 13104,
    "werte_akt": 28,
+   "werte_temp": 28,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   },
@@ -47,6 +48,7 @@
    "letzter_tag": "2026-10-16",
    "tage": 13104,
    "werte_akt": 28,
+   "werte_temp": 28,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   },
@@ -56,6 +58,7 @@
    "letzter_tag": "2026-10-16",
    "tage": 13104,
    "werte_akt": 28,
+   "werte_temp": 28,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   },
@@ -65,6 +68,7 @@
    "letzter_tag": "2026-10-16",
    "tage": 13104,
    "werte_akt": 28,
+   "werte_temp": 28,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   },
@@ -74,6 +78,7 @@
    "letzter_tag": "2026-10-16",
    "tage": 13104,
    "werte_akt": 28,
+   "werte_temp": 28,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   },
@@ -83,8 +88,59 @@
    "letzter_tag": "2026-10-16",
    "tage": 13104,
    "werte_akt": 28,
+   "werte_temp": 28,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
+  }
+ },
+ "pruefung_temperatur": {
+  "BR-W": {
+   "station": "DWD-06263",
+   "anzahl_jahre": 21,
+   "von_bis": "2005–2025",
+   "mittlere_abweichung_c": -0.08,
+   "mittlere_betragsabweichung_c": 0.13,
+   "frosttage_differenz_je_jahr": -0.6
+  },
+  "BR-O": {
+   "station": "DWD-02712",
+   "anzahl_jahre": 35,
+   "von_bis": "1991–2025",
+   "mittlere_abweichung_c": -1.66,
+   "mittlere_betragsabweichung_c": 1.67,
+   "frosttage_differenz_je_jahr": 33.7
+  },
+  "BR-F": {
+   "station": "DWD-06263",
+   "anzahl_jahre": 21,
+   "von_bis": "2005–2025",
+   "mittlere_abweichung_c": 0.22,
+   "mittlere_betragsabweichung_c": 0.33,
+   "frosttage_differenz_je_jahr": -12.8
+  },
+  "HG-B": {
+   "station": "DWD-06263",
+   "anzahl_jahre": 21,
+   "von_bis": "2005–2025",
+   "mittlere_abweichung_c": -1.04,
+   "mittlere_betragsabweichung_c": 1.19,
+   "frosttage_differenz_je_jahr": 16.1
+  },
+  "HG-S": {
+   "station": "DWD-06263",
+   "anzahl_jahre": 21,
+   "von_bis": "2005–2025",
+   "mittlere_abweichung_c": -1.34,
+   "mittlere_betragsabweichung_c": 1.47,
+   "frosttage_differenz_je_jahr": 18.6
+  },
+  "HG-K": {
+   "station": "DWD-06263",
+   "anzahl_jahre": 21,
+   "von_bis": "2005–2025",
+   "mittlere_abweichung_c": -0.98,
+   "mittlere_betragsabweichung_c": 1.08,
+   "frosttage_differenz_je_jahr": 13.2
   }
  },
  "pruefung_konstanz": {

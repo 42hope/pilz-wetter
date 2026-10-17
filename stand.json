@@ -1,0 +1,40 @@
+{
+ "version": "W-1.0",
+ "erzeugt": "2026-10-17T21:41:03Z",
+ "modus": "historie",
+ "stationen": {
+  "DWD-06263": {
+   "name": "Singen",
+   "erster_tag": "2004-07-01",
+   "letzter_tag": "2026-10-16",
+   "tage": 8143,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  },
+  "DWD-06107": {
+   "name": "Sipplingen",
+   "erster_tag": "1999-04-14",
+   "letzter_tag": null,
+   "tage": 8870,
+   "perzentile_echt": 0,
+   "perzentile_zu_kurz": 72
+  },
+  "DWD-02712": {
+   "name": "Konstanz",
+   "erster_tag": "1990-12-01",
+   "letzter_tag": "2026-10-16",
+   "tage": 13104,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  },
+  "MCH-GUT": {
+   "name": "Güttingen",
+   "erster_tag": "1990-12-01",
+   "letzter_tag": "2026-10-15",
+   "tage": 13104,
+   "perzentile_echt": 72,
+   "perzentile_zu_kurz": 0
+  }
+ },
+ "fehler": 0
+}

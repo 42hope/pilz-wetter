@@ -1,13 +1,13 @@
 {
  "version": "W-1.2",
- "erzeugt": "2026-10-18T10:47:14Z",
+ "erzeugt": "2026-10-19T10:53:12Z",
  "modus": "taeglich",
  "stationen": {
   "DWD-06263": {
    "name": "Singen",
    "erster_tag": "2004-07-01",
-   "letzter_tag": "2026-10-17",
-   "tage": 8144,
+   "letzter_tag": "2026-10-18",
+   "tage": 8145,
    "werte_akt": 550,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
@@ -15,8 +15,8 @@
   "DWD-02712": {
    "name": "Konstanz",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-10-17",
-   "tage": 13105,
+   "letzter_tag": "2026-10-18",
+   "tage": 13106,
    "werte_akt": 549,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
@@ -24,9 +24,9 @@
   "MCH-GUT": {
    "name": "Güttingen",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-10-16",
-   "tage": 13105,
-   "werte_akt": 289,
+   "letzter_tag": "2026-10-17",
+   "tage": 13106,
+   "werte_akt": 290,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   }
@@ -35,8 +35,8 @@
   "BR-W": {
    "name": "Bodanrück West/Zentral",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-10-17",
-   "tage": 13105,
+   "letzter_tag": "2026-10-18",
+   "tage": 13106,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -45,8 +45,8 @@
   "BR-O": {
    "name": "Bodanrück Ost",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-10-17",
-   "tage": 13105,
+   "letzter_tag": "2026-10-18",
+   "tage": 13106,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -55,8 +55,8 @@
   "BR-F": {
    "name": "Bodanrück Feucht-/Tieflage",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-10-17",
-   "tage": 13105,
+   "letzter_tag": "2026-10-18",
+   "tage": 13106,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -65,8 +65,8 @@
   "HG-B": {
    "name": "Hegaualb Engen-Bargen",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-10-17",
-   "tage": 13105,
+   "letzter_tag": "2026-10-18",
+   "tage": 13106,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -75,8 +75,8 @@
   "HG-S": {
    "name": "Hegau Braunerde Vulkantuff",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-10-17",
-   "tage": 13105,
+   "letzter_tag": "2026-10-18",
+   "tage": 13106,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -85,8 +85,8 @@
   "HG-K": {
    "name": "Hegau Pararendzina Deckentuff",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-10-17",
-   "tage": 13105,
+   "letzter_tag": "2026-10-18",
+   "tage": 13106,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,

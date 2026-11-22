@@ -1,6 +1,6 @@
 {
- "version": "W-1.2",
- "erzeugt": "2026-11-22T17:54:02Z",
+ "version": "W-1.4",
+ "erzeugt": "2026-11-22T21:21:56Z",
  "modus": "taeglich",
  "stationen": {
   "DWD-06263": {
@@ -147,6 +147,136 @@
    "mittlere_betragsabweichung_c": 1.08,
    "frosttage_differenz_je_jahr": 13.2
   }
+ },
+ "zusatz": {
+  "stationen": {
+   "DWD-06263": {
+    "spalten": 22,
+    "erster_tag": "2004-07-01",
+    "letzter_tag": "2026-11-21",
+    "letzter_tag_boden": "2026-11-21",
+    "letzter_tag_schnee": "2026-11-21"
+   },
+   "DWD-02712": {
+    "spalten": 22,
+    "erster_tag": "1959-07-01",
+    "letzter_tag": "2026-11-21",
+    "letzter_tag_boden": "2026-11-21",
+    "letzter_tag_schnee": "2026-11-21"
+   },
+   "MCH-GUT": {
+    "spalten": 39,
+    "erster_tag": "1976-06-01",
+    "letzter_tag": "2026-11-21",
+    "letzter_tag_boden": "2026-11-21",
+    "letzter_tag_schnee": null
+   }
+  },
+  "messpunkte": {
+   "BR-W": {
+    "letzter_tag_modell": "2026-11-21"
+   },
+   "BR-O": {
+    "letzter_tag_modell": "2026-11-21"
+   },
+   "BR-F": {
+    "letzter_tag_modell": "2026-11-21"
+   },
+   "HG-B": {
+    "letzter_tag_modell": "2026-11-21"
+   },
+   "HG-S": {
+    "letzter_tag_modell": "2026-11-21"
+   },
+   "HG-K": {
+    "letzter_tag_modell": "2026-11-21"
+   }
+  },
+  "vorhersage": {
+   "BR-W": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-11-28",
+    "modelle": [
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   },
+   "BR-O": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-11-28",
+    "modelle": [
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   },
+   "BR-F": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-11-28",
+    "modelle": [
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   },
+   "HG-B": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-11-28",
+    "modelle": [
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   },
+   "HG-S": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-11-28",
+    "modelle": [
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   },
+   "HG-K": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-11-28",
+    "modelle": [
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   },
+   "DWD-06263": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-11-28",
+    "modelle": [
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   },
+   "DWD-02712": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-12-02",
+    "modelle": [
+     "dwd_mosmix",
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   },
+   "MCH-GUT": {
+    "ausgabe": "2026-11-22T21:26Z",
+    "erster_tag": "2026-11-22",
+    "letzter_tag": "2026-11-28",
+    "modelle": [
+     "ecmwf_ifs025",
+     "icon_seamless"
+    ]
+   }
+  },
+  "fehler": 0
  },
  "fehler": 0
 }

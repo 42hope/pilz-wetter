@@ -61,3 +61,26 @@ HYRAS-Rasterzelle ausgewählt, Perzentile berechnet.
   2026-01-01 00:00 bis 2026-01-02 00:00 (Zeitzone laut Datei: hours since 1881-01-01 00:00 +0:00). Der DWD-Stationsniederschlag
   eines Datums gilt von 06 UTC dieses Tages bis 06 UTC des Folgetags (ab 2001-04-01, davor 07:30
   bis 07:30 MEZ); bei MeteoSchweiz ist es der Parameter `rre150d0`.
+
+## Zusatzgrössen (ab W-1.4)
+
+Die Reihen oben bleiben unverändert. Dazu kommen:
+
+| Datei | Inhalt |
+| --- | --- |
+| `voll/<Kennung>.csv` | nur Stationen: jede Tagesgrösse der Quelle unter ihrem Originalnamen, nichts verworfen (DWD KL, DWD Erdbodentemperatur mit Präfix `EB_`, MeteoSchweiz SMN); `q` wie in den Reihen |
+| `zusatz/<Kennung>.csv` | einheitliche Spalten für Stationen und Messpunkte: `tboden5`, `tboden10`, `tboden20` (Bodentemperatur in cm Tiefe, °C, gemessen unter Rasen), `tmin5cm` (Tiefstwert 5 cm über Boden), `schnee_cm`, `druck_hpa` (Stationsdruck), `feuchte_pct`, `sonne_h`, `wind_ms`; Modellwerte vergangener Tage mit Endung `_modell` (`tboden0_modell`, `tboden6_modell`, `tboden18_modell`, `schnee_cm_modell`) |
+| `vorhersage/<Kennung>.csv` | Tagesvorhersage ab heute bis 7 Tage (MOSMIX bis 10 Tage), je Zeile ein Modell (`icon_seamless`, `ecmwf_ifs025`, bei Konstanz `dwd_mosmix`); `q` = `vorhersage`; `ausgabe` = Zeitpunkt des Laufs (UTC); jeder Lauf ersetzt die Datei |
+| `vorhersage-archiv/<Kennung>.csv` | jede Vorhersage, je Ausgabetag eine Fassung, zur späteren Prüfung der Vorhersagegüte |
+
+Tageswerte der Vorhersage und der Modellwerte gelten von 00 bis 00 UTC. Ein Vorhersage- oder
+Modellwert ist kein Messwert. Bodentemperatur und Schnee der Messpunkte sind Modellwerte einer
+Zelle von rund 2 km (ICON) bzw. 25 km (ECMWF); der Waldboden ist in der Regel gedämpfter als der
+Wert unter Rasen oder im Modell. `tboden0` (Oberfläche) springt an seenahen Punkten (Konstanz,
+Güttingen) bei Frost auf Werte über 5 °C; dort ist der Wert vom Bodensee beeinflusst. Massgebend
+ist `tboden6`, gegen die Messung in 5 cm geprüft am 22.11.2026: Konstanz 17.–21.11. im Mittel
+0,3 °C wärmer als gemessen, Güttingen rund 1,5 °C kälter. Güttingen misst keine Schneehöhe;
+gemessenen Schnee liefern Konstanz und Singen.
+
+Quellen: DWD Tageswerte Erdbodentemperatur und MOSMIX_L (GeoNutzV); Weather data by Open-Meteo.com
+(https://open-meteo.com, CC BY 4.0; die Schnittstelle ist für nicht kommerzielle Nutzung frei).

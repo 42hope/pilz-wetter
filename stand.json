@@ -1,13 +1,13 @@
 {
  "version": "W-1.4",
- "erzeugt": "2026-11-24T20:42:34Z",
+ "erzeugt": "2026-11-25T19:59:03Z",
  "modus": "taeglich",
  "stationen": {
   "DWD-06263": {
    "name": "Singen",
    "erster_tag": "2004-07-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 8181,
+   "letzter_tag": "2026-11-24",
+   "tage": 8182,
    "werte_akt": 548,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
@@ -15,8 +15,8 @@
   "DWD-02712": {
    "name": "Konstanz",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 13142,
+   "letzter_tag": "2026-11-24",
+   "tage": 13143,
    "werte_akt": 549,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
@@ -24,9 +24,9 @@
   "MCH-GUT": {
    "name": "Güttingen",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 13142,
-   "werte_akt": 327,
+   "letzter_tag": "2026-11-24",
+   "tage": 13143,
+   "werte_akt": 328,
    "perzentile_echt": 72,
    "perzentile_zu_kurz": 0
   }
@@ -35,8 +35,8 @@
   "BR-W": {
    "name": "Bodanrück West/Zentral",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 13142,
+   "letzter_tag": "2026-11-24",
+   "tage": 13143,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -45,8 +45,8 @@
   "BR-O": {
    "name": "Bodanrück Ost",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 13142,
+   "letzter_tag": "2026-11-24",
+   "tage": 13143,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -55,8 +55,8 @@
   "BR-F": {
    "name": "Bodanrück Feucht-/Tieflage",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 13142,
+   "letzter_tag": "2026-11-24",
+   "tage": 13143,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -65,8 +65,8 @@
   "HG-B": {
    "name": "Hegaualb Engen-Bargen",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 13142,
+   "letzter_tag": "2026-11-24",
+   "tage": 13143,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -75,8 +75,8 @@
   "HG-S": {
    "name": "Hegau Braunerde Vulkantuff",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 13142,
+   "letzter_tag": "2026-11-24",
+   "tage": 13143,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -85,8 +85,8 @@
   "HG-K": {
    "name": "Hegau Pararendzina Deckentuff",
    "erster_tag": "1990-12-01",
-   "letzter_tag": "2026-11-23",
-   "tage": 13142,
+   "letzter_tag": "2026-11-24",
+   "tage": 13143,
    "werte_akt": 28,
    "werte_temp": 28,
    "perzentile_echt": 72,
@@ -153,113 +153,113 @@
    "DWD-06263": {
     "spalten": 22,
     "erster_tag": "2004-07-01",
-    "letzter_tag": "2026-11-23",
-    "letzter_tag_boden": "2026-11-23",
-    "letzter_tag_schnee": "2026-11-23"
+    "letzter_tag": "2026-11-24",
+    "letzter_tag_boden": "2026-11-24",
+    "letzter_tag_schnee": "2026-11-24"
    },
    "DWD-02712": {
     "spalten": 22,
     "erster_tag": "1959-07-01",
-    "letzter_tag": "2026-11-23",
-    "letzter_tag_boden": "2026-11-23",
-    "letzter_tag_schnee": "2026-11-23"
+    "letzter_tag": "2026-11-24",
+    "letzter_tag_boden": "2026-11-24",
+    "letzter_tag_schnee": "2026-11-24"
    },
    "MCH-GUT": {
     "spalten": 39,
     "erster_tag": "1976-06-01",
-    "letzter_tag": "2026-11-23",
-    "letzter_tag_boden": "2026-11-23",
+    "letzter_tag": "2026-11-24",
+    "letzter_tag_boden": "2026-11-24",
     "letzter_tag_schnee": null
    }
   },
   "messpunkte": {
    "BR-W": {
-    "letzter_tag_modell": "2026-11-23"
+    "letzter_tag_modell": "2026-11-24"
    },
    "BR-O": {
-    "letzter_tag_modell": "2026-11-23"
+    "letzter_tag_modell": "2026-11-24"
    },
    "BR-F": {
-    "letzter_tag_modell": "2026-11-23"
+    "letzter_tag_modell": "2026-11-24"
    },
    "HG-B": {
-    "letzter_tag_modell": "2026-11-23"
+    "letzter_tag_modell": "2026-11-24"
    },
    "HG-S": {
-    "letzter_tag_modell": "2026-11-23"
+    "letzter_tag_modell": "2026-11-24"
    },
    "HG-K": {
-    "letzter_tag_modell": "2026-11-23"
+    "letzter_tag_modell": "2026-11-24"
    }
   },
   "vorhersage": {
    "BR-W": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-11-30",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-01",
     "modelle": [
      "ecmwf_ifs025",
      "icon_seamless"
     ]
    },
    "BR-O": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-11-30",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-01",
     "modelle": [
      "ecmwf_ifs025",
      "icon_seamless"
     ]
    },
    "BR-F": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-11-30",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-01",
     "modelle": [
      "ecmwf_ifs025",
      "icon_seamless"
     ]
    },
    "HG-B": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-11-30",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-01",
     "modelle": [
      "ecmwf_ifs025",
      "icon_seamless"
     ]
    },
    "HG-S": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-11-30",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-01",
     "modelle": [
      "ecmwf_ifs025",
      "icon_seamless"
     ]
    },
    "HG-K": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-11-30",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-01",
     "modelle": [
      "ecmwf_ifs025",
      "icon_seamless"
     ]
    },
    "DWD-06263": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-11-30",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-01",
     "modelle": [
      "ecmwf_ifs025",
      "icon_seamless"
     ]
    },
    "DWD-02712": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-12-04",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-05",
     "modelle": [
      "dwd_mosmix",
      "ecmwf_ifs025",
@@ -267,9 +267,9 @@
     ]
    },
    "MCH-GUT": {
-    "ausgabe": "2026-11-24T20:43Z",
-    "erster_tag": "2026-11-24",
-    "letzter_tag": "2026-11-30",
+    "ausgabe": "2026-11-25T19:59Z",
+    "erster_tag": "2026-11-25",
+    "letzter_tag": "2026-12-01",
     "modelle": [
      "ecmwf_ifs025",
      "icon_seamless"
